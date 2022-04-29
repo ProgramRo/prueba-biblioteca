@@ -47,3 +47,4 @@ INSERT INTO prestamos(libros_isbn_fk, socios_rut_fk, fecha_prestamo, fecha_devol
 SELECT * FROM libros WHERE numero_paginas < 300;
 SELECT * FROM autores WHERE fecha_nacimiento > 1970;
 SELECT COUNT(p.libros_isbn_fk) AS mas_solicitado, l.titulo FROM prestamos AS p INNER JOIN libros AS l ON p.libros_isbn_fk = l.isbn GROUP BY p.libros_isbn_fk, l.titulo ORDER BY mas_solicitado DESC LIMIT 1;
+SELECT ((p.fecha_devolucion - p.fecha_prestamo) - 7) * 100 AS multa, s.nombre FROM prestamos AS p INNER JOIN socios AS s ON p.socios_rut_fk = s.rut WHERE p.fecha_devolucion - p.fecha_prestamo > 7;
