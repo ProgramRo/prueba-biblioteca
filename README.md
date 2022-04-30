@@ -19,11 +19,15 @@ identificarlos y facilitar la búsqueda.
 ## Parte 1 - Creación del modelo conceptual, lógico y físico
 1. Realizar el modelo conceptual, considerando las entidades y relaciones entre ellas.
 
-2. Realizar el modelo lógico, considerando todas las entidades y las relaciones entre
-ellas, los atributos, normalización y creación de tablas intermedias de ser necesario.
+![image](https://user-images.githubusercontent.com/98556305/166124181-b2949e4c-1e0e-4a09-bc58-8a37da55efa8.png)
 
-3. Realizar el modelo físico, considerando la especificación de tablas y columnas,
-además de las claves externas.
+2. Realizar el modelo lógico, considerando todas las entidades y las relaciones entre ellas, los atributos, normalización y creación de tablas intermedias de ser necesario.
+
+![image](https://user-images.githubusercontent.com/98556305/166124208-375ce15c-861b-48f2-a420-d41b6cff0859.png)
+
+3. Realizar el modelo físico, considerando la especificación de tablas y columnas, además de las claves externas.
+
+![image](https://user-images.githubusercontent.com/98556305/166124222-3f066e48-c084-4cea-a5d9-2556756d745e.png)
 
 ## Parte 2 - Creando el modelo en la base de datos
 1. Crear el modelo en una base de datos llamada biblioteca, considerando las tablas
